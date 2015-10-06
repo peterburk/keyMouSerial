@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BEE01E414D50C3B00E6AB32 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEE01E314D50C3B00E6AB32 /* Cocoa.framework */; };
+		D0099A9E1B3BFC5900936A58 /* KeyMouSerial Setup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0099A9D1B3BFC5900936A58 /* KeyMouSerial Setup.jpg */; };
+		D07498BE1B3BE28100C945EE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D07498A91B3BE28100C945EE /* Credits.rtf */; };
+		D07498BF1B3BE28100C945EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D07498AB1B3BE28100C945EE /* InfoPlist.strings */; };
+		D07498C01B3BE28100C945EE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D07498AD1B3BE28100C945EE /* MainMenu.xib */; };
+		D07498C11B3BE28100C945EE /* KeyMouSerial.png in Resources */ = {isa = PBXBuildFile; fileRef = D07498B01B3BE28100C945EE /* KeyMouSerial.png */; };
+		D07498C21B3BE28100C945EE /* KMSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D07498B21B3BE28100C945EE /* KMSAppDelegate.m */; };
+		D07498C31B3BE28100C945EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D07498B31B3BE28100C945EE /* main.m */; };
+		D07498C41B3BE28100C945EE /* ORSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D07498B51B3BE28100C945EE /* ORSAppDelegate.m */; };
+		D07498C51B3BE28100C945EE /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = D07498B71B3BE28100C945EE /* ORSSerialPort.m */; };
+		D07498C61B3BE28100C945EE /* ORSSerialPortDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07498B91B3BE28100C945EE /* ORSSerialPortDemoController.m */; };
+		D07498C71B3BE28100C945EE /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D07498BB1B3BE28100C945EE /* ORSSerialPortManager.m */; };
+		D07498C81B3BE28100C945EE /* ORSSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D07498BD1B3BE28100C945EE /* ORSSerialRequest.m */; };
+		D07B3BBD1B32C58000AA8FBF /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D07B3BBC1B32C58000AA8FBF /* icon.icns */; };
+		D09F9C731B09D2E6009B01AD /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09F9C721B09D2E6009B01AD /* Carbon.framework */; };
+		D09F9C751B09D2F0009B01AD /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09F9C741B09D2F0009B01AD /* ApplicationServices.framework */; };
+		D09F9C771B09D2F5009B01AD /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09F9C761B09D2F5009B01AD /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9BEE01DF14D50C3B00E6AB32 /* KeyMouSerial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyMouSerial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BEE01E314D50C3B00E6AB32 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9BEE01E614D50C3B00E6AB32 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9BEE01E714D50C3B00E6AB32 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9BEE01E814D50C3B00E6AB32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0099A9D1B3BFC5900936A58 /* KeyMouSerial Setup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "KeyMouSerial Setup.jpg"; sourceTree = "<group>"; };
+		D07498AA1B3BE28100C945EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D07498AC1B3BE28100C945EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D07498AE1B3BE28100C945EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D07498AF1B3BE28100C945EE /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D07498B01B3BE28100C945EE /* KeyMouSerial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyMouSerial.png; sourceTree = "<group>"; };
+		D07498B11B3BE28100C945EE /* KMSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSAppDelegate.h; sourceTree = "<group>"; };
+		D07498B21B3BE28100C945EE /* KMSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSAppDelegate.m; sourceTree = "<group>"; };
+		D07498B31B3BE28100C945EE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D07498B41B3BE28100C945EE /* ORSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSAppDelegate.h; sourceTree = "<group>"; };
+		D07498B51B3BE28100C945EE /* ORSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSAppDelegate.m; sourceTree = "<group>"; };
+		D07498B61B3BE28100C945EE /* ORSSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPort.h; sourceTree = "<group>"; };
+		D07498B71B3BE28100C945EE /* ORSSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPort.m; sourceTree = "<group>"; };
+		D07498B81B3BE28100C945EE /* ORSSerialPortDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortDemoController.h; sourceTree = "<group>"; };
+		D07498B91B3BE28100C945EE /* ORSSerialPortDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortDemoController.m; sourceTree = "<group>"; };
+		D07498BA1B3BE28100C945EE /* ORSSerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortManager.h; sourceTree = "<group>"; };
+		D07498BB1B3BE28100C945EE /* ORSSerialPortManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortManager.m; sourceTree = "<group>"; };
+		D07498BC1B3BE28100C945EE /* ORSSerialRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialRequest.h; sourceTree = "<group>"; };
+		D07498BD1B3BE28100C945EE /* ORSSerialRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialRequest.m; sourceTree = "<group>"; };
+		D07B3BBC1B32C58000AA8FBF /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		D09F9C721B09D2E6009B01AD /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		D09F9C741B09D2F0009B01AD /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		D09F9C761B09D2F5009B01AD /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BEE01DC14D50C3B00E6AB32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09F9C771B09D2F5009B01AD /* IOKit.framework in Frameworks */,
+				D09F9C751B09D2F0009B01AD /* ApplicationServices.framework in Frameworks */,
+				D09F9C731B09D2E6009B01AD /* Carbon.framework in Frameworks */,
+				9BEE01E414D50C3B00E6AB32 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BEE01D414D50C3900E6AB32 = {
+			isa = PBXGroup;
+			children = (
+				D07B3BBC1B32C58000AA8FBF /* icon.icns */,
+				D0099A9D1B3BFC5900936A58 /* KeyMouSerial Setup.jpg */,
+				D07498A81B3BE28000C945EE /* KeyMouSerial */,
+				9BEE01E214D50C3B00E6AB32 /* Frameworks */,
+				9BEE01E014D50C3B00E6AB32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BEE01E014D50C3B00E6AB32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BEE01DF14D50C3B00E6AB32 /* KeyMouSerial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BEE01E214D50C3B00E6AB32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D09F9C761B09D2F5009B01AD /* IOKit.framework */,
+				D09F9C741B09D2F0009B01AD /* ApplicationServices.framework */,
+				D09F9C721B09D2E6009B01AD /* Carbon.framework */,
+				9BEE01E314D50C3B00E6AB32 /* Cocoa.framework */,
+				9BEE01E514D50C3B00E6AB32 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BEE01E514D50C3B00E6AB32 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BEE01E614D50C3B00E6AB32 /* AppKit.framework */,
+				9BEE01E714D50C3B00E6AB32 /* CoreData.framework */,
+				9BEE01E814D50C3B00E6AB32 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D07498A81B3BE28000C945EE /* KeyMouSerial */ = {
+			isa = PBXGroup;
+			children = (
+				D07498A91B3BE28100C945EE /* Credits.rtf */,
+				D07498AB1B3BE28100C945EE /* InfoPlist.strings */,
+				D07498AD1B3BE28100C945EE /* MainMenu.xib */,
+				D07498B01B3BE28100C945EE /* KeyMouSerial.png */,
+				D07498B11B3BE28100C945EE /* KMSAppDelegate.h */,
+				D07498B21B3BE28100C945EE /* KMSAppDelegate.m */,
+				D07498B31B3BE28100C945EE /* main.m */,
+				D07498B41B3BE28100C945EE /* ORSAppDelegate.h */,
+				D07498B51B3BE28100C945EE /* ORSAppDelegate.m */,
+				D07498B61B3BE28100C945EE /* ORSSerialPort.h */,
+				D07498B71B3BE28100C945EE /* ORSSerialPort.m */,
+				D07498B81B3BE28100C945EE /* ORSSerialPortDemoController.h */,
+				D07498B91B3BE28100C945EE /* ORSSerialPortDemoController.m */,
+				D07498BA1B3BE28100C945EE /* ORSSerialPortManager.h */,
+				D07498BB1B3BE28100C945EE /* ORSSerialPortManager.m */,
+				D07498BC1B3BE28100C945EE /* ORSSerialRequest.h */,
+				D07498BD1B3BE28100C945EE /* ORSSerialRequest.m */,
+			);
+			path = KeyMouSerial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BEE01DE14D50C3B00E6AB32 /* KeyMouSerial.temp_caseinsensitive_rename */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BEE01FD14D50C3B00E6AB32 /* Build configuration list for PBXNativeTarget "KeyMouSerial.temp_caseinsensitive_rename" */;
+			buildPhases = (
+				9BEE01DB14D50C3B00E6AB32 /* Sources */,
+				9BEE01DC14D50C3B00E6AB32 /* Frameworks */,
+				9BEE01DD14D50C3B00E6AB32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyMouSerial.temp_caseinsensitive_rename;
+			productName = ColorClick;
+			productReference = 9BEE01DF14D50C3B00E6AB32 /* KeyMouSerial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BEE01D614D50C3900E6AB32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = 9BEE01D914D50C3900E6AB32 /* Build configuration list for PBXProject "KeyMouSerial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+			);
+			mainGroup = 9BEE01D414D50C3900E6AB32;
+			productRefGroup = 9BEE01E014D50C3B00E6AB32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BEE01DE14D50C3B00E6AB32 /* KeyMouSerial.temp_caseinsensitive_rename */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BEE01DD14D50C3B00E6AB32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0099A9E1B3BFC5900936A58 /* KeyMouSerial Setup.jpg in Resources */,
+				D07498C11B3BE28100C945EE /* KeyMouSerial.png in Resources */,
+				D07B3BBD1B32C58000AA8FBF /* icon.icns in Resources */,
+				D07498BF1B3BE28100C945EE /* InfoPlist.strings in Resources */,
+				D07498BE1B3BE28100C945EE /* Credits.rtf in Resources */,
+				D07498C01B3BE28100C945EE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BEE01DB14D50C3B00E6AB32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D07498C31B3BE28100C945EE /* main.m in Sources */,
+				D07498C41B3BE28100C945EE /* ORSAppDelegate.m in Sources */,
+				D07498C81B3BE28100C945EE /* ORSSerialRequest.m in Sources */,
+				D07498C61B3BE28100C945EE /* ORSSerialPortDemoController.m in Sources */,
+				D07498C71B3BE28100C945EE /* ORSSerialPortManager.m in Sources */,
+				D07498C21B3BE28100C945EE /* KMSAppDelegate.m in Sources */,
+				D07498C51B3BE28100C945EE /* ORSSerialPort.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D07498A91B3BE28100C945EE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D07498AA1B3BE28100C945EE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D07498AB1B3BE28100C945EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D07498AC1B3BE28100C945EE /* en */,
+				D07498AF1B3BE28100C945EE /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D07498AD1B3BE28100C945EE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D07498AE1B3BE28100C945EE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BEE01FB14D50C3B00E6AB32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9BEE01FC14D50C3B00E6AB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9BEE01FE14D50C3B00E6AB32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyMouSerial-Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = KeyMouSerial;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9BEE01FF14D50C3B00E6AB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyMouSerial-Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = KeyMouSerial;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BEE01D914D50C3900E6AB32 /* Build configuration list for PBXProject "KeyMouSerial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BEE01FB14D50C3B00E6AB32 /* Debug */,
+				9BEE01FC14D50C3B00E6AB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BEE01FD14D50C3B00E6AB32 /* Build configuration list for PBXNativeTarget "KeyMouSerial.temp_caseinsensitive_rename" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BEE01FE14D50C3B00E6AB32 /* Debug */,
+				9BEE01FF14D50C3B00E6AB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BEE01D614D50C3900E6AB32 /* Project object */;
+}

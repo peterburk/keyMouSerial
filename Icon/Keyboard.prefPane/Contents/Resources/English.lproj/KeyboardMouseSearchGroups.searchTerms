@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>btTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>index</key>
+				<string>battery level</string>
+				<key>title</key>
+				<string>Bluetooth mouse</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>battery level</string>
+				<key>title</key>
+				<string>Bluetooth keyboard</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>Show Bluetooth status in menu bar</string>
+			</dict>
+		</array>
+	</dict>
+	<key>keyboardTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>index</key>
+				<string>delay, repeat, keys, key, rate</string>
+				<key>title</key>
+				<string>Keyboard sensitivity</string>
+			</dict>
+		</array>
+	</dict>
+	<key>keyboardTab_ModifierKeys</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>index</key>
+				<string></string>
+				<key>title</key>
+				<string>Reset modifier keys</string>
+			</dict>
+		</array>
+	</dict>
+	<key>mouseTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>index</key>
+				<string>double-click, speed, tracking, scroll, scrolling, speed</string>
+				<key>title</key>
+				<string>Mouse sensitivity</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>primary, secondary, dashboard, application switcher, spotlight, shortcut, zoom, expose, exposé, scroll ball, ball, Mighty Mouse</string>
+				<key>title</key>
+				<string>Mouse buttons</string>
+			</dict>
+		</array>
+	</dict>
+	<key>shortcutsTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>index</key>
+				<string>Front Row, Dictionary</string>
+				<key>title</key>
+				<string>Keyboard shortcuts</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>Tab, navigate, highlight, hilight</string>
+				<key>title</key>
+				<string>Full keyboard access settings</string>
+			</dict>
+		</array>
+	</dict>
+	<key>trackpadTab</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>index</key>
+				<string>tracking, clicking, dragging</string>
+				<key>title</key>
+				<string>Trackpad sensitivity</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>ignore</string>
+				<key>title</key>
+				<string>Turn off trackpad</string>
+			</dict>
+		</array>
+		<key>portableOnly</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="0.9">
+<dict>
+	<key>keyRepeatrate</key>
+	<integer>1010</integer>
+	<key>delayUntilRepeat</key>
+	<integer>1020</integer>
+	<key>fullKeyboardAccess</key>
+	<array>
+		<integer>2010</integer>
+		<integer>2020</integer>
+		<integer>2030</integer>
+		<integer>2040</integer>
+		<integer>2050</integer>
+		<integer>2060</integer>
+		<integer>2070</integer>
+		<integer>2080</integer>
+	</array>
+</dict>
+</plist>

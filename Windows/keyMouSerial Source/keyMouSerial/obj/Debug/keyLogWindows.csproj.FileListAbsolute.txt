@@ -1,0 +1,9 @@
+c:\users\peterburk\documents\visual studio 2013\Projects\keyLogWindows\keyLogWindows\bin\Debug\keyLogWindows.exe.config
+c:\users\peterburk\documents\visual studio 2013\Projects\keyLogWindows\keyLogWindows\bin\Debug\keyLogWindows.exe
+c:\users\peterburk\documents\visual studio 2013\Projects\keyLogWindows\keyLogWindows\bin\Debug\keyLogWindows.pdb
+c:\users\peterburk\documents\visual studio 2013\Projects\keyLogWindows\keyLogWindows\obj\Debug\keyLogWindows.csprojResolveAssemblyReference.cache
+c:\users\peterburk\documents\visual studio 2013\Projects\keyLogWindows\keyLogWindows\obj\Debug\keyLogWindows.exe
+c:\users\peterburk\documents\visual studio 2013\Projects\keyLogWindows\keyLogWindows\obj\Debug\keyLogWindows.pdb
+C:\Users\infofab\Desktop\keyLogWindows\keyLogWindows\bin\Debug\keyLogWindows.exe.config
+C:\Users\infofab\Desktop\keyLogWindows\keyLogWindows\obj\Debug\keyLogWindows.exe
+C:\Users\infofab\Desktop\keyLogWindows\keyLogWindows\obj\Debug\keyLogWindows.pdb

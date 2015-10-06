@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14DD26CD13B2B9A70078AF47 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DD26CC13B2B9A70078AF47 /* Cocoa.framework */; };
+		14DD26D713B2B9A70078AF47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14DD26D513B2B9A70078AF47 /* InfoPlist.strings */; };
+		14DD26DA13B2B9A70078AF47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DD26D913B2B9A70078AF47 /* main.m */; };
+		14DD26DD13B2B9A80078AF47 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 14DD26DB13B2B9A70078AF47 /* Credits.rtf */; };
+		14DD26E013B2B9A80078AF47 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DD26DF13B2B9A80078AF47 /* MyDocument.m */; };
+		14DD26E313B2B9A80078AF47 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14DD26E113B2B9A80078AF47 /* MyDocument.xib */; };
+		14DD26E613B2B9A80078AF47 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14DD26E413B2B9A80078AF47 /* MainMenu.xib */; };
+		14DD26ED13B2BE970078AF47 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DD26EC13B2BE970078AF47 /* Carbon.framework */; };
+		D09F9C5A1B09B960009B01AD /* ORSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F9C511B09B960009B01AD /* ORSAppDelegate.m */; };
+		D09F9C5B1B09B960009B01AD /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F9C531B09B960009B01AD /* ORSSerialPort.m */; };
+		D09F9C5C1B09B960009B01AD /* ORSSerialPortDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F9C551B09B960009B01AD /* ORSSerialPortDemoController.m */; };
+		D09F9C5D1B09B960009B01AD /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F9C571B09B960009B01AD /* ORSSerialPortManager.m */; };
+		D09F9C5E1B09B960009B01AD /* ORSSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F9C591B09B960009B01AD /* ORSSerialRequest.m */; };
+		D09F9C601B09BC21009B01AD /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09F9C5F1B09BC21009B01AD /* ApplicationServices.framework */; };
+		D09F9C621B09BC27009B01AD /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09F9C611B09BC27009B01AD /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14DD26C813B2B9A70078AF47 /* CGEventPostingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGEventPostingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DD26CC13B2B9A70078AF47 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		14DD26CF13B2B9A70078AF47 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		14DD26D013B2B9A70078AF47 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		14DD26D113B2B9A70078AF47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14DD26D413B2B9A70078AF47 /* CGEventPostingExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CGEventPostingExample-Info.plist"; sourceTree = "<group>"; };
+		14DD26D613B2B9A70078AF47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14DD26D813B2B9A70078AF47 /* CGEventPostingExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGEventPostingExample-Prefix.pch"; sourceTree = "<group>"; };
+		14DD26D913B2B9A70078AF47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14DD26DC13B2B9A80078AF47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		14DD26DE13B2B9A80078AF47 /* MyDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		14DD26DF13B2B9A80078AF47 /* MyDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		14DD26E213B2B9A80078AF47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		14DD26E513B2B9A80078AF47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		14DD26EC13B2BE970078AF47 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		D09F9C501B09B960009B01AD /* ORSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSAppDelegate.h; sourceTree = "<group>"; };
+		D09F9C511B09B960009B01AD /* ORSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSAppDelegate.m; sourceTree = "<group>"; };
+		D09F9C521B09B960009B01AD /* ORSSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPort.h; sourceTree = "<group>"; };
+		D09F9C531B09B960009B01AD /* ORSSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPort.m; sourceTree = "<group>"; };
+		D09F9C541B09B960009B01AD /* ORSSerialPortDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortDemoController.h; sourceTree = "<group>"; };
+		D09F9C551B09B960009B01AD /* ORSSerialPortDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortDemoController.m; sourceTree = "<group>"; };
+		D09F9C561B09B960009B01AD /* ORSSerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortManager.h; sourceTree = "<group>"; };
+		D09F9C571B09B960009B01AD /* ORSSerialPortManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortManager.m; sourceTree = "<group>"; };
+		D09F9C581B09B960009B01AD /* ORSSerialRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialRequest.h; sourceTree = "<group>"; };
+		D09F9C591B09B960009B01AD /* ORSSerialRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialRequest.m; sourceTree = "<group>"; };
+		D09F9C5F1B09BC21009B01AD /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		D09F9C611B09BC27009B01AD /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14DD26C513B2B9A70078AF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09F9C621B09BC27009B01AD /* IOKit.framework in Frameworks */,
+				D09F9C601B09BC21009B01AD /* ApplicationServices.framework in Frameworks */,
+				14DD26ED13B2BE970078AF47 /* Carbon.framework in Frameworks */,
+				14DD26CD13B2B9A70078AF47 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14DD26BD13B2B9A70078AF47 = {
+			isa = PBXGroup;
+			children = (
+				14DD26D213B2B9A70078AF47 /* CGEventPostingExample */,
+				14DD26CB13B2B9A70078AF47 /* Frameworks */,
+				14DD26C913B2B9A70078AF47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14DD26C913B2B9A70078AF47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14DD26C813B2B9A70078AF47 /* CGEventPostingExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14DD26CB13B2B9A70078AF47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D09F9C611B09BC27009B01AD /* IOKit.framework */,
+				D09F9C5F1B09BC21009B01AD /* ApplicationServices.framework */,
+				14DD26EC13B2BE970078AF47 /* Carbon.framework */,
+				14DD26CC13B2B9A70078AF47 /* Cocoa.framework */,
+				14DD26CE13B2B9A70078AF47 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14DD26CE13B2B9A70078AF47 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14DD26CF13B2B9A70078AF47 /* AppKit.framework */,
+				14DD26D013B2B9A70078AF47 /* CoreData.framework */,
+				14DD26D113B2B9A70078AF47 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		14DD26D213B2B9A70078AF47 /* CGEventPostingExample */ = {
+			isa = PBXGroup;
+			children = (
+				14DD26DE13B2B9A80078AF47 /* MyDocument.h */,
+				14DD26DF13B2B9A80078AF47 /* MyDocument.m */,
+				14DD26E113B2B9A80078AF47 /* MyDocument.xib */,
+				14DD26E413B2B9A80078AF47 /* MainMenu.xib */,
+				D09F9C501B09B960009B01AD /* ORSAppDelegate.h */,
+				D09F9C511B09B960009B01AD /* ORSAppDelegate.m */,
+				D09F9C521B09B960009B01AD /* ORSSerialPort.h */,
+				D09F9C531B09B960009B01AD /* ORSSerialPort.m */,
+				D09F9C541B09B960009B01AD /* ORSSerialPortDemoController.h */,
+				D09F9C551B09B960009B01AD /* ORSSerialPortDemoController.m */,
+				D09F9C561B09B960009B01AD /* ORSSerialPortManager.h */,
+				D09F9C571B09B960009B01AD /* ORSSerialPortManager.m */,
+				D09F9C581B09B960009B01AD /* ORSSerialRequest.h */,
+				D09F9C591B09B960009B01AD /* ORSSerialRequest.m */,
+				14DD26D313B2B9A70078AF47 /* Supporting Files */,
+			);
+			name = CGEventPostingExample;
+			sourceTree = "<group>";
+		};
+		14DD26D313B2B9A70078AF47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14DD26D413B2B9A70078AF47 /* CGEventPostingExample-Info.plist */,
+				14DD26D513B2B9A70078AF47 /* InfoPlist.strings */,
+				14DD26D813B2B9A70078AF47 /* CGEventPostingExample-Prefix.pch */,
+				14DD26D913B2B9A70078AF47 /* main.m */,
+				14DD26DB13B2B9A70078AF47 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14DD26C713B2B9A70078AF47 /* CGEventPostingExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DD26E913B2B9A80078AF47 /* Build configuration list for PBXNativeTarget "CGEventPostingExample" */;
+			buildPhases = (
+				14DD26C413B2B9A70078AF47 /* Sources */,
+				14DD26C513B2B9A70078AF47 /* Frameworks */,
+				14DD26C613B2B9A70078AF47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGEventPostingExample;
+			productName = CGEventPostingExample;
+			productReference = 14DD26C813B2B9A70078AF47 /* CGEventPostingExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14DD26BF13B2B9A70078AF47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 14DD26C213B2B9A70078AF47 /* Build configuration list for PBXProject "CGEventPostingExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14DD26BD13B2B9A70078AF47;
+			productRefGroup = 14DD26C913B2B9A70078AF47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14DD26C713B2B9A70078AF47 /* CGEventPostingExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14DD26C613B2B9A70078AF47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DD26D713B2B9A70078AF47 /* InfoPlist.strings in Resources */,
+				14DD26DD13B2B9A80078AF47 /* Credits.rtf in Resources */,
+				14DD26E313B2B9A80078AF47 /* MyDocument.xib in Resources */,
+				14DD26E613B2B9A80078AF47 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14DD26C413B2B9A70078AF47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DD26DA13B2B9A70078AF47 /* main.m in Sources */,
+				D09F9C5A1B09B960009B01AD /* ORSAppDelegate.m in Sources */,
+				D09F9C5E1B09B960009B01AD /* ORSSerialRequest.m in Sources */,
+				D09F9C5C1B09B960009B01AD /* ORSSerialPortDemoController.m in Sources */,
+				D09F9C5D1B09B960009B01AD /* ORSSerialPortManager.m in Sources */,
+				14DD26E013B2B9A80078AF47 /* MyDocument.m in Sources */,
+				D09F9C5B1B09B960009B01AD /* ORSSerialPort.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14DD26D513B2B9A70078AF47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14DD26D613B2B9A70078AF47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14DD26DB13B2B9A70078AF47 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14DD26DC13B2B9A80078AF47 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		14DD26E113B2B9A80078AF47 /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14DD26E213B2B9A80078AF47 /* en */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		14DD26E413B2B9A80078AF47 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14DD26E513B2B9A80078AF47 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14DD26E713B2B9A80078AF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		14DD26E813B2B9A80078AF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		14DD26EA13B2B9A80078AF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGEventPostingExample-Prefix.pch";
+				INFOPLIST_FILE = "CGEventPostingExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14DD26EB13B2B9A80078AF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGEventPostingExample-Prefix.pch";
+				INFOPLIST_FILE = "CGEventPostingExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14DD26C213B2B9A70078AF47 /* Build configuration list for PBXProject "CGEventPostingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DD26E713B2B9A80078AF47 /* Debug */,
+				14DD26E813B2B9A80078AF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14DD26E913B2B9A80078AF47 /* Build configuration list for PBXNativeTarget "CGEventPostingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DD26EA13B2B9A80078AF47 /* Debug */,
+				14DD26EB13B2B9A80078AF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14DD26BF13B2B9A70078AF47 /* Project object */;
+}

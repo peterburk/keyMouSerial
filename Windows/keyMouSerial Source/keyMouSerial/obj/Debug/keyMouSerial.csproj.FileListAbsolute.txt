@@ -1,0 +1,14 @@
+C:\Users\infofab\Desktop\keyLogWindows\keyLogWindows\bin\Debug\keyLogWindows.exe.config
+C:\Users\infofab\Desktop\keyLogWindows\keyLogWindows\bin\Debug\keyLogWindows.exe
+C:\Users\infofab\Desktop\keyLogWindows\keyLogWindows\bin\Debug\keyLogWindows.pdb
+C:\Users\infofab\Desktop\keyLogWindows\keyLogWindows\obj\Debug\keyMouSerial.csprojResolveAssemblyReference.cache
+C:\Users\infofab\Desktop\keyLogWindows\keyLogWindows\obj\Debug\keyLogWindows.exe
+C:\Users\infofab\Desktop\keyLogWindows\keyLogWindows\obj\Debug\keyLogWindows.pdb
+C:\Users\infofab\Desktop\keyMouSerial\keyLogWindows\bin\Debug\keyLogWindows.exe.config
+C:\Users\infofab\Desktop\keyMouSerial\keyLogWindows\obj\Debug\keyLogWindows.exe
+C:\Users\infofab\Desktop\keyMouSerial\keyLogWindows\obj\Debug\keyLogWindows.pdb
+C:\Users\infofab\Desktop\keyMouSerial\keyMouSerial\bin\Debug\keyMouSerial.exe.config
+C:\Users\infofab\Desktop\keyMouSerial\keyMouSerial\bin\Debug\keyMouSerial.exe
+C:\Users\infofab\Desktop\keyMouSerial\keyMouSerial\bin\Debug\keyMouSerial.pdb
+C:\Users\infofab\Desktop\keyMouSerial\keyMouSerial\obj\Debug\keyMouSerial.exe
+C:\Users\infofab\Desktop\keyMouSerial\keyMouSerial\obj\Debug\keyMouSerial.pdb
